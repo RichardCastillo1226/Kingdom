@@ -7,39 +7,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="grid.css" type="text/css" />
 </head>
 <div class="page-header">
     <h1>Danny's, Delvin's, & Richard's HouseHold Animal Dietry</h1>
 </div>
 <nav class="nav-bar">
     <ul>
-        <li><a class="nav-link" href="#House-Pet(s)-Diets">House Pet(s) Diets</a></li>
+        <li><a class="nav-link" href="#House-Pet(s)-Diets">House Pet(s)Diets</a></li>
     </ul>
 </nav>
 
-<head>
-    <h1>Welcome To The Kingdom</h1>
-    <label for="">Name:</label>
-    </br>
-    <input type="text" name="name" id=name placeholder="Enter Name" />
-    </br>
-    <label for="">Email:</label>
-    </br>
-    <input type="text" name="email" id=email placeholder="Enter Email" />
-    </br>
-    <label for="">Pet Type:</label>
-    </br>
-    <input type="text" name="Pet Type" id=petname placeholder="Pet Type" />
-<select id="PetType" placeholder="Pet Name">
-    <option value="PetType">Select a pet</option>
-    <option value="Dog">Dog</option>
-    <option value="Cat">Cat</option>
-    <option value="Fish">Fish</option>
-
-</head>
-
 <body>
-    <div class="">
+    <h2>Welcome To The Kingdom</h2>
+    <div id="form">
+        <label for="">Name:</label>
+        </br>
+        <input type="text" name="name" id=name placeholder="Enter Name" />
+        </br>
+        <label for="">Email:</label>
+        </br>
+        <input type="text" name="email" id=email placeholder="Enter Email" />
+        </br>
+        <label for="">Pet Type:</label>
+        </br>
+        <input list="pets" name="Pet Type" id=pettype placeholder="Pet Type" />
+        <datalist id="pets">
+            <option value="Dog">
+            <option value="Cat">
+            <option value="Fish">
+        </datalist>
+    </div> 
+
+    <div id="content"> 
+    <h1>Info On Dogs</h1>
+    
+        
 
     </div>
 
