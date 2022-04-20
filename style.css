@@ -1,12 +1,45 @@
-h1 {
-    color: whitesmoke;
+* {
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+
 }
 
-h2 {
-    color: blue;
+h1 {
+    color: White;
+}
+
+div > p {
+   color: white;
 }
 
 body {
     background-image:
     url('animals.webp');
 } 
+
+.select {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+
+.container {
+    padding: 15px;
+    background: transparent;
+    height: auto;
+    width: 100%;
+}
+
+#title {
+    background-color: transparent;
+    
+}
+
+#footer {
+    background-color: olive;
+    color: white;
+    position: relative;
+    top: 430px;
+}
