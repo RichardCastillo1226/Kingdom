@@ -3,15 +3,12 @@
     margin: 2px;
     box-sizing: border-box;
 
-}
+} 
 
 h1 {
     color: White;
 }
 
-div > p {
-   color: white;
-}
 
 body {
     background-image:
