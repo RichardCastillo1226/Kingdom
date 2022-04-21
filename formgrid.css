@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 8fr 1fr;
+    grid-template-areas:
+    "Form"
+    "footer"
+}
+
+
+#Form {
+    grid-area: Form;
+    text-align: center;
+    
+}
+
+#footer {
+    grid-area: footer;
+    text-align: center;
+    
+}
