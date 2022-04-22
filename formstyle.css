@@ -4,17 +4,19 @@
     box-sizing: border-box;
 }
 
-body {
+body { 
     font-size: 25px;
     font-family: Arial;
     color: white;
     background: olive;
     padding: 45px 20px;
-}
+    background-image: 
+    url('dogkitty.jpg');
+} 
 
 .container {
     padding: 15px;
-    background: white;
+    background: transparent;
     height: auto;
     width: 100%;
 }

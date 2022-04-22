@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="index.html" type="text/css" />
     <link rel="stylesheet" href="formstyle.css" type="text/css" />
     <link rel="stylesheet" href="formgrid.css" type="text/css" />
+    <link rel="stylesheet" href="content.html" type="text/css" />
+    <link rel="stylesheet" href="contentstyle.css" type="text/css" />
 
 </head>
 
@@ -25,13 +27,14 @@
             </br>
             <label for="">Pet Type:</label>
             </br>
-            <input list="pets" name="Pet Type" id=pettype placeholder="Pet Type" />
-            <datalist id="pets">
-                <option value="Dog">
-                <option value="Cat">
-                <option value="Fish">
-            </datalist>
-            <footer id="footer"> CopyRight 2022 </footer>
+                <button class="dropbtn">Select Pet Type</button>
+                <div class="dropdown-content">
+                    <a href="content.html">Dog</a>
+                    <a href="content.html">Cat</a>
+                    <a href="content.html">Fish</a>
+                </div>
+            </div>
+            <footer id="footer"> CopyRight 2022</footer>
         </div>
 
 
