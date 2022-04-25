@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
-body {
+body { 
     font-size: 25px;
     font-family: Arial;
-    color: white;
-    background: grey;
+    color: black;
+    background: transparent; 
+    background-image: url('catdog.png');
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -19,21 +25,21 @@ body {
 }
 
 #title {
-    background-color: blue;
+    background-color: transparent;
     
 }
 
 h4 {
-    color: white;
+    color: black;
 }
 
 #box1 {
-    background-color: red;
+    background-color: transparent;
     
 }
 
 #box2 {
-    background-color: green;
+    background-color: transparent;
     
 }
 
@@ -44,7 +50,7 @@ h4 {
 }
 
 #box3 {
-    background-color: black;
+    background-color: transparent;
     
 }
 
