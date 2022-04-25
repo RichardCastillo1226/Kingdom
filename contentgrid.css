@@ -1,41 +1,40 @@
-.container {
+.container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: .5fr 2.3fr 2fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr;
     grid-template-areas:
-    "title title"
-    "box1 box2"
-    "box3 box3"
-    "footer footer"
-    
-}
-
-
-#title {
-    grid-area: title;
-    text-align: center;
-    
+    "Cat"
+    "Dog"
+    "Fish";
+    grid-gap: 20px;
 }
 
 #box1 {
-    grid-area: box1;
+    grid-area: Cat;
     text-align: center;
-    
 }
 
 #box2 {
-    grid-area: box2;
+    grid-area: Dog;
     text-align: center;
-    
 }
 
 #box3 {
-    grid-area: box3;
+    grid-area: Fish;
     text-align: center;
 }
 
-#footer {
-    grid-area: footer;
-    text-align: center;
+@media only screen and (max-width:680px){
+    
+    .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "Cat"
+    "Dog"
+    "Fish";
+    grid-gap: 20px;
+    }
     
 }
