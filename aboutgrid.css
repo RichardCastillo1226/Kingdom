@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "Delvin Richard"
+    grid-gap: 30px;
+}
+
+.box1 {
+    grid-area: Delvin;
+    text-align: center;
+}
+
+.box2 {
+    grid-area: Richard;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:680px){
+    
+    .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "Delvin"
+    "Richard"
+    grid-gap: 20px;
+    }
+    
+}
