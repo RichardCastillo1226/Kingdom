@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="formgrid.css" type="text/css" />
     <link rel="stylesheet" href="content.html" type="text/css" />
 
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="formstyle.css" type="text/css" />
+
 
 </head>
 <header>
@@ -36,16 +39,16 @@
             </br>
             <input type="text" name="email" id=email placeholder="Enter Email" />
             </br>
-
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-                    <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                </ul>
+            <div class="containerdrop">
+                <label for="cars">Pet Type</label>
+                <select name="Pet" id="Pettype">
+                    <option value="cat">Cat</option>
+                    <option value="dog">Dog</option>
+                    <option value="fish">Fish</option>
+                </select>
             </div>
+        </div>
+    </div>
 
             <section class="youtube">
                 <div class="box1">
@@ -69,6 +72,7 @@
             <footer>
                 <p>Copyright 2022 Richard and Delvin LLC</p>
             </footer>
+    </div>
 
 </body>
 
