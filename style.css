@@ -16,6 +16,8 @@ li, a, button {
 
 header{
     display: flex;
+    position: sticky;
+    top: 0px;
     justify-content: flex-end;
     align-items: center;
     padding: 20px 10%;
@@ -53,13 +55,13 @@ button:hover{
 }
 
 
-h1 {
+h2 {
     font-family: "Montserrat", sans-serif; 
     color: White;
 }
 
 body{
-    background-image:url('Jungle.webp'); 
+    background-color: #3E885B; 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -67,7 +69,7 @@ body{
 .select {
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 300px;
 }
 
 
@@ -78,15 +80,16 @@ body{
     width: 100%;
 }
 
-#title {
-    background-color: olive;
+.title {
+    margin-right: auto;
+    background-color: transparent;
     
 }
 
 #footer { 
     font-family: "Montserrat", sans-serif; 
-    background-color: olive;
+    background-color: transparent;
     color: white;
     position: relative;
-    top: 500px;
+    top: 630px;
 }

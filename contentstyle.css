@@ -68,10 +68,14 @@ body {
     flex-direction: row;
     box-sizing: border-box;
     position: relative;
-    top: 600px;
+    top: 680px;
     width: 100%;
     height:100%;
     font-size: 18px;
+}
+
+p {
+    padding: 5px;
 }
 
 .box1{
@@ -106,6 +110,8 @@ div > img {
 .title {
     text-align: center;
     background-color: transparent;
+    position: relative;
+    top: 100px;
     
 }
 
@@ -124,11 +130,10 @@ footer > p {
     justify-content: center;
     font-size: 15px;
     position: relative;
-    top: 590px;
+    top: 680px;
 }
 
 footer > p {
     color: black;
 }
 
-}
